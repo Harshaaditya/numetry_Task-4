@@ -1,0 +1,119 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: white;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(0, 61, 0);
+    color: white;
+    font-size: 0.8rem;
+    padding: 10px;
+
+}
+.top ul li,a{
+    
+    list-style: none;
+    display: inline-block;
+    color: white;
+}
+.top_left{
+    padding-left: 20px;
+}
+.top_right{
+    padding-right: 20px;
+}
+
+.heading{
+    background-color: rgb(2, 121, 2);
+    padding: 30px;
+    color: white;
+}
+.heading >* {
+    display: inline-block;
+    margin-right: 10px;
+}
+.nav {
+    background-color: rgb(3, 155, 3);
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav li, a{
+    display: inline-block;
+    font-size: 1rem;
+    padding: 5px;
+}
+.nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+
+.main {
+    display: flex;
+    align-items: start;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.content{
+    padding: 30px;
+    flex: 1;
+}
+.diff {
+    border-left: 2px solid green;
+    margin-left: 50px;
+}
+.content span{
+    color: lightgreen;
+}
+.content .caption{
+    padding: 10px;
+}
+.content .para2 .list_1 {
+    display: inline-block;
+}
+.hl4,.hl3 .list_2 {
+    padding-left: 40px;
+}
+.hl3 .list_2 ul li {
+    font-size: 0.8rem;
+}
+.right-side {
+    background-color: rgb(217, 194, 166);
+    display: flex;
+    font-size: small;
+    padding: 10px;
+    max-width: 30%;
+
+}
+.right-side li{
+    list-style: none;
+}
+.footer {
+    padding: 5px;
+    background-color: green;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    column-gap: 100px;
+}
+.footer li,a {
+    list-style: none;
+    color: white;
+}
+.footer li a {
+    font-size: 0.8rem;
+    text-decoration: none;
+}
+.footer .cr {
+    margin-left: auto;
+}
